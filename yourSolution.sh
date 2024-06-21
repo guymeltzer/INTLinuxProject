@@ -1,5 +1,6 @@
 wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
 tar -xvf secretGenerator.tar.gz
+sudo apt-get install coreutils
 cd src
 chmod +x generateSecret.sh
 mkdir secretDir
@@ -10,4 +11,3 @@ chmod go-rw .secret
 cd ..
 rm important.link
 ./generateSecret.sh
-echo "worked!"
