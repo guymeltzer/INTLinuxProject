@@ -10,3 +10,4 @@ chmod go-rw .secret
 cd ..
 rm important.link
 ./generateSecret.sh
+echo "worked!"
