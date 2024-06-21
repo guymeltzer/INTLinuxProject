@@ -3,15 +3,41 @@
 
 Kernel System Calls
 -------------------
-<Your Answer>
+the first chunk of code is mostly system calls to open libraries and map necessary data,
+From what I can tell within the commands -
+the command fstat is trying to get file information from the folder WelcometoDevopsTheHardWay,
+But it doesn't exist, afterwords the script creates the directory with mkdir,
+After it runs an openat command to open at the correct directory (our repo folder)
+And then it runs fstat again to get the file information, and then it writes into a file called
+GoodLuck - writes text into the file - "there you go tell me what I do"
 
 
 Broken Symlink
 -------------------
-<Your Answer>
+The symlink is broken because it was moved to another folder, first you need to delete the old
+symlink file, then create a new symlink file that directs to the /backups folder where the actual
+file is.
 
 
 
 Binary Numbers
 --------------
-<Your Answer>
+
+1. 111 = 7
+   100 = 4
+   10110 = 22
+2. 0-255
+3. the left most digit represents the sign (positive/negative), 0 = positive, 1 = negative.
+   The rest of the 8 bits are the actual number.
+4. First we need to break down how we convert every digit. at first the sign is either 0 or 1,
+   To represent if it's positive or negative.
+   After that we need to convert the exponent (integer) to binary, then we need to convert
+   the number after the decimal point to binary. and that's the result
+   For example: converting 15.7 to binary: 1111.1011
+
+
+  4. File System Manipulation
+  ------------------------------
+  Created the scripts saw that there was some foul play there, a broken link created and a folder that is needed that wasn't created at launch.
+  Copied the contents of my fix to the yoursolution.sh script file.
+  Tested it and it works.
