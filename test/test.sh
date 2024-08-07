@@ -20,6 +20,7 @@ tar -xf secretGenerator.tar.gz
 cp yourSolution.sh src/yourSolution.sh
 echo "q" > src/CONTENT_TO_HASH
 
+
 cd src
 bash yourSolution.sh
 
