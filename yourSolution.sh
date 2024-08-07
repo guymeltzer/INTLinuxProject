@@ -8,8 +8,5 @@ chmod go-rw secretDir/.secret
 rm -f important.link
 ./generateSecret.sh
 
-
-###
-###
-echo "hhihihihihi"
+echo "34324234234134253426kosdfgokscgkjdsfjkgjkdsfgjksdfjkg"
 
